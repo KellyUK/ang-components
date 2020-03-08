@@ -6,9 +6,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
+  @Input('class') classNames = '';
+
   @Input() data = [];
   @Input() headers = [];
-  @Input() classNames = '';
 
   constructor() {}
 

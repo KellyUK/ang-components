@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViewsHomeComponent } from './views-home-component';
+import { ViewsHomeComponent } from './views-home.component';
 
 describe('ViewsHomeComponent', () => {
   let component: ViewsHomeComponent;
