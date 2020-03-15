@@ -8,8 +8,8 @@ import { Component, OnInit } from "@angular/core";
 export class ModsHomeComponent implements OnInit {
   modalOpen = false;
   items = [
-    { title: "string?", content: "it is" },
-    { title: "what color?", content: "blue" },
+    { title: "What does a dog do?", content: "bark" },
+    { title: "what color is the sky?", content: "blue" },
     { title: "what is this?", content: "a frog" }
   ];
 
